@@ -20,9 +20,9 @@ body {
   /* ლოგოსნვერ ვაახლოვებ New-სთან */
   justify-content: space-between;
   border-bottom: 1px solid #e5e5e5;
-    padding: 16px 411.5px;
+  padding: 16px 411.5px;
 }
-  /* display: inline-block;
+/* display: inline-block;
 
  
  
@@ -33,22 +33,20 @@ body {
   position: sticky;
   top: 0; */
 
-
 .logo {
   display: inline-block;
   font-size: 20px;
   font-weight: bold;
   color: #2e7d32;
-  
 }
 
- .logo span {
+.logo span {
   color: #000;
-} 
+}
 
 /*  ზომას ვერ ვუცვლი */
-.class-1{
-  width: fixed 1140;
+.class-1 {
+  max-width: 1140px;
   height: fixed 480px;
 }
 
@@ -58,70 +56,81 @@ body {
   gap: 24px; */
 /* } */
 
-.nav_ul{
+.nav_ul {
   display: flex;
   gap: 8px;
   color: #333;
-  
-
-} 
-
-.navbar{
-  display: inline-block;
- } 
-
-
-.navbar a:hover {
-  color: #2e7d32; 
 }
 
-.container{
-  width:fixed 1140px;
+.navbar {
+  display: inline-block;
+}
+
+/* .navbar a:hover {
+  color: #2e7d32; 
+} */
+
+.container {
+align-items: center;
+
+  width: fixed 1140px;
   height: 480px;
   background-color: #2e7d32;
+  
 }
-Hero
-.hero img {
+
+/* .hero img {
   width: 100%;
   height: 350px;
   object-fit: cover;
 } */
 
+ /* figure {
+  padding-top: 80px;
+} */
+
+
 /* Products */
+
 .products {
-  background: #5e7d4b;
+  background: black;
   color: #fff;
-  text-align: center;
-  padding: 40px 20px;
+  
+  
 }
 
 .products h2 {
-  font-size: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  font-style: bold;
   margin-bottom: 8px;
+  text-align: center;
+  color: White;
 }
 
 .products p {
+
   margin-bottom: 32px;
   font-size: 16px;
-} */
+  text-align: center;
+  color: white;
+}
+*/
 
 /* Product Grid */
  .product-grid {
- display: grid;
-
- grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 24px;
   max-width: 1100px;
   margin: 0 auto;
 }
 
 .product-card {
-  background: #fff;
-  color: #000;
-  border-radius: 10px; 
-
-  padding: 16px;
-  text-align: center;
+  color: white;
+  border-radius: 10px;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 .product-card img {
@@ -129,7 +138,7 @@ Hero
   height: 200px;
   object-fit: contain;
   margin-bottom: 12px;
-} 
+}
 
 .product-card h3 {
   font-size: 16px;
