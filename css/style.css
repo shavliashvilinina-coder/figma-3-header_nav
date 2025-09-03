@@ -21,7 +21,10 @@ body {
   justify-content: space-between;
   border-bottom: 1px solid #e5e5e5;
     padding: 16px 411.5px;
+}
   /* display: inline-block;
+
+ 
  
   
   padding: 16px 40px;
@@ -30,7 +33,7 @@ body {
   position: sticky;
   top: 0; */
 
-/* 
+
 .logo {
   display: inline-block;
   font-size: 20px;
@@ -39,9 +42,15 @@ body {
   
 }
 
-/* .logo span {
+ .logo span {
   color: #000;
-} */
+} 
+
+/*  ზომას ვერ ვუცვლი */
+.class-1{
+  width: fixed 1140;
+  height: fixed 480px;
+}
 
 /* .header ul {
   display: inline-block;
@@ -54,18 +63,21 @@ body {
   gap: 8px;
   color: #333;
   
-  
-} */
-/* /* .navbar{
+
+} 
+
+.navbar{
   display: inline-block;
- } */
-/* 
+ } 
+
+
 .navbar a:hover {
-  color: #2e7d32; */
-/* }
+  color: #2e7d32; 
+}
+
 .container{
-  width: 300px;
-  height: 200px;
+  width:fixed 1140px;
+  height: 480px;
   background-color: #2e7d32;
 }
 Hero
@@ -76,14 +88,14 @@ Hero
 } */
 
 /* Products */
-/* .products {
+.products {
   background: #5e7d4b;
   color: #fff;
   text-align: center;
   padding: 40px 20px;
 }
-/*  */
-/* .products h2 {
+
+.products h2 {
   font-size: 32px;
   margin-bottom: 8px;
 }
@@ -94,10 +106,10 @@ Hero
 } */
 
 /* Product Grid */
-/* .product-grid {
-  /* display: grid; */
-*/ */
-  /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+ .product-grid {
+ display: grid;
+
+ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 24px;
   max-width: 1100px;
   margin: 0 auto;
@@ -106,8 +118,9 @@ Hero
 .product-card {
   background: #fff;
   color: #000;
-  border-radius: 10px; */
-  /* padding: 16px;
+  border-radius: 10px; 
+
+  padding: 16px;
   text-align: center;
 }
 
@@ -116,7 +129,7 @@ Hero
   height: 200px;
   object-fit: contain;
   margin-bottom: 12px;
-} */
+} 
 
 .product-card h3 {
   font-size: 16px;
